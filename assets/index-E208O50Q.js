@@ -328,20 +328,21 @@ Error generating stack: `+n.message+`
   bottom: 50px;
   left: 0;
   right: 0;
-  height: calc(100vh - 50px);
+  height: calc(100dvh - 50px);
   background: rgba(42, 42, 42, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
-  padding: 50px 0 50px 100px;
+  padding: calc(50px + env(safe-area-inset-top, 0px)) 0 50px 100px;
   overflow-y: auto;
   overflow-x: hidden;
   color: white;
   z-index: 100;
 
   @media (max-width: 600px) {
-    padding: 20px 20px 20px 20px;
+    padding: calc(20px + env(safe-area-inset-top, 0px)) 20px 20px 20px;
+    height: calc(100dvh - 50px);
   }
 `,Q8=st.div`
   display: flex;
