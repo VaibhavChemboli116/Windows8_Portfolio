@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { FaWindows, FaChrome, FaFileAlt, FaCode, FaBatteryFull, FaWifi, FaVolumeUp, FaGraduationCap, FaArrowLeft, FaSearch, FaLock, FaRegEnvelope, FaChevronDown, FaUserCircle } from 'react-icons/fa';
+import { FaWindows, FaChrome, FaFileAlt, FaCode, FaBatteryFull, FaWifi, FaVolumeUp, FaArrowLeft, FaLock, FaRegEnvelope, FaChevronDown, FaUserCircle } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 

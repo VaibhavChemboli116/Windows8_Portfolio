@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { Tile as StyledTile, TileContent as StyledTileContent, TileBack, TileIcon, TileTitle, ExpandedContent } from '../styles/StartScreen.styles';
 import type { Project } from '../types/startScreen';
 

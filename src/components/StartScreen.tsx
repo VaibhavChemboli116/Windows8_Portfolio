@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { motion } from 'framer-motion';
 import { fetchAIFact } from '../services/aiFactsService';
 import { projects } from '../data/projects';
 import { Tile } from './Tile';
@@ -13,6 +12,7 @@ import {
   TileGrid,
 } from '../styles/StartScreen.styles';
 import type { StartScreenProps } from '../types/startScreen';
+import profileImage from '../assets/pp2.jpeg';
 
 // Robust mobile detection hook
 function useIsMobile(breakpoint = 600) {
@@ -25,7 +25,7 @@ function useIsMobile(breakpoint = 600) {
   return isMobile;
 }
 
-const StartScreen: React.FC<StartScreenProps> = ({ onClose, expandedTileId, setExpandedTileId }) => {
+const StartScreen: React.FC<StartScreenProps> = ({ expandedTileId, setExpandedTileId }) => {
   const [flippingTileId, setFlippingTileId] = useState<number | null>(null);
   const [hoveredTileId, setHoveredTileId] = useState<number | null>(null);
   const [inTileExpandedId, setInTileExpandedId] = useState<number | null>(null);
@@ -151,7 +151,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onClose, expandedTileId, setE
       <StartScreenHeader>
         <StartText>Start</StartText>
         <UserProfile>
-          Vaibhav Chemboli <img src="/pp2.jpeg" alt="Profile" />
+          Vaibhav Chemboli <img src={profileImage} alt="Profile" />
         </UserProfile>
       </StartScreenHeader>
       <TilesScrollWrapper>

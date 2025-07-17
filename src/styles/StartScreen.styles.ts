@@ -1,18 +1,6 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { css } from '@emotion/react';
-import { useEffect, useState } from 'react';
-
-// Custom hook to detect mobile
-function useIsMobile(breakpoint = 600) {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= breakpoint);
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= breakpoint);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, [breakpoint]);
-  return isMobile;
-}
 
 export const StartScreenContainer = styled(motion.div)`
   position: fixed;
@@ -418,29 +406,4 @@ export const mobileStyles = css`
       padding: 20px !important;
     }
   }
-`;
-
-const MobileTaskbar = styled.div`
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 40px;
-  background: #1a1a1a;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 24px;
-  z-index: 1001;
-`;
-
-const MobileTaskbarButton = styled.button`
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 24px;
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `;

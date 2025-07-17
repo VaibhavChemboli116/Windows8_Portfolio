@@ -1,6 +1,22 @@
 import React from 'react';
-import { FaGraduationCap, FaBook, FaBriefcase, FaBuilding, FaCode, FaLaptopCode, FaLinkedin, FaGithub, FaFlask, FaAward, FaChalkboardTeacher, FaCertificate, FaHandsHelping, FaLightbulb, FaBookOpen } from 'react-icons/fa';
+import { FaGraduationCap, FaBook, FaBriefcase, FaBuilding, FaCode, FaLaptopCode, FaLinkedin, FaGithub, FaFlask, FaAward, FaChalkboardTeacher, FaCertificate, FaLightbulb, FaBookOpen } from 'react-icons/fa';
 import type { Project } from '../types/startScreen';
+
+// Import all project images
+import hProjectImage from '../assets/Images/HProject.png';
+import project1Image from '../assets/Images/project1.png';
+import project2Image from '../assets/Images/project2.png';
+import project3Image from '../assets/Images/Project3.png';
+import project4Image from '../assets/Images/Project4.jpg';
+import project5Image from '../assets/Images/Project5.png';
+import project6Image from '../assets/Images/Project6.png';
+import project7Image from '../assets/Images/Project7.png';
+import project8Image from '../assets/Images/Project8.png';
+import project9Image from '../assets/Images/Project9.png';
+import project10Image from '../assets/Images/Project10.png';
+import project11Image from '../assets/Images/Project11.png';
+import project12Image from '../assets/Images/Project12.png';
+import project13Image from '../assets/Images/Project13.png';
 
 export const projects: Project[] = [
   // Education Category and Items
@@ -324,7 +340,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Multi Agentic AI System'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/HProject.png', 
+          src: hProjectImage, 
           alt: 'Multi Agentic AI System Architecture', 
           style: { 
             width: '272px', 
@@ -360,7 +376,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Dynamic Ad Recommender Chatbot'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/project1.png', 
+          src: project1Image, 
           alt: 'Dynamic Ad Recommender Chatbot', 
           style: { 
             width: '272px', 
@@ -394,7 +410,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Low-Rank Fine-Tuning of TinyLLaMA and Phi-2 for Persona-Driven Causal Language Modeling'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/project2.png', 
+          src: project2Image, 
           alt: 'Low-Rank Fine-Tuning of TinyLLaMA and Phi-2', 
           style: { 
             width: '282px', 
@@ -428,7 +444,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Diffusion-Driven Image Generation on 160-Class Multi-Modal Medical Images'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project3.png', 
+          src: project3Image, 
           alt: 'Diffusion-Driven Image Generation', 
           style: { 
             width: '272px', 
@@ -462,7 +478,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'House Price Prediction'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project4.jpg', 
+          src: project4Image, 
           alt: 'House Price Prediction', 
           style: { 
             width: '272px', 
@@ -498,7 +514,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Canine Cardiomegaly Classification & Key Point Localization for Vertebral Heart Score Prediction in Dogs'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project5.png', 
+          src: project5Image, 
           alt: 'Canine Cardiomegaly Classification', 
           style: { 
             width: '272px', 
@@ -531,7 +547,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Noise Isolation in Bird Sound Images Using Atrous Convolutions with Multi-Scale Contextual Learning'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project6.png', 
+          src: project6Image, 
           alt: 'Noise Isolation in Bird Sound Images', 
           style: { 
             width: '272px', 
@@ -564,7 +580,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Explainable AI for Retinal Disease Detection'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project7.png', 
+          src: project7Image, 
           alt: 'Explainable AI for Retinal Disease Detection', 
           style: { 
             width: '272px', 
@@ -597,7 +613,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Custom Implementation of K-Means Clustering Algorithm'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project8.png', 
+          src: project8Image, 
           alt: 'Custom Implementation of K-Means Clustering', 
           style: { 
             width: '282px', 
@@ -632,7 +648,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Targeted Marketing'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project9.png', 
+          src: project9Image, 
           alt: 'Targeted Marketing', 
           style: { 
             width: '282px', 
@@ -665,7 +681,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Understanding Mental Health Through Socioeconomic-Demographic, Lifestyle and Health Factors: An NHANES Perspective'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project10.png', 
+          src: project10Image, 
           alt: 'Understanding Mental Health Through NHANES', 
           style: { 
             width: '272px', 
@@ -697,7 +713,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Crop Type Prediction using Supervised, Unsupervised Learning, and Neural Networks'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project11.png', 
+          src: project11Image, 
           alt: 'Crop Type Prediction', 
           style: { 
             width: '272px', 
@@ -730,7 +746,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Time Series Air Quality Prediction with Neural Networks'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project12.png', 
+          src: project12Image, 
           alt: 'Time Series Air Quality Prediction', 
           style: { 
             width: '272px', 
@@ -762,7 +778,7 @@ export const projects: Project[] = [
       React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Wireless Sound Control'),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
-          src: '/Images/Project13.png', 
+          src: project13Image, 
           alt: 'Wireless Sound Control', 
           style: { 
             width: '282px', 

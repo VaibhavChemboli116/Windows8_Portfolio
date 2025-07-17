@@ -78,7 +78,7 @@ const Desktop = () => {
   const [message, setMessage] = useState('');
   const isMobile = useIsMobile();
 
-  const handleIconClick = (iconName: string) => {
+  const handleIconClick = () => {
     setMessage('Click on windows icon');
     setShowMessage(true);
     setTimeout(() => {
@@ -95,7 +95,7 @@ const Desktop = () => {
             key={icon.id}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => handleIconClick(icon.name)}
+            onClick={() => handleIconClick()}
           >
             {icon.icon}
             <IconName>{icon.name}</IconName>

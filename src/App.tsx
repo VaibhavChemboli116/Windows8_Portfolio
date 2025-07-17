@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaWindows, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import Taskbar from './components/Taskbar'
 import StartScreen from './components/StartScreen'
 import Desktop from './components/Desktop'
