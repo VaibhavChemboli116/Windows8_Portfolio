@@ -229,7 +229,7 @@ export const projects: Project[] = [
           React.createElement('li', null, 'Improved the chatbot by using the OpenAI Assistant API and created a custom function that allows the user to ask data-driven queries. Built and implemented a comprehensive end-to-end solution with Flask as the frontend, resulting in a fully working, robust medical chatbot.'),
           React.createElement('li', null, 'Designed database and metadata management with SQLite; optimized retrieval pipelines for both models.'),
           React.createElement('li', null, 'Contributed to system architecture design, UI/UX planning for web/mobile apps, and conducted technical interviews for full-stack and AI roles.'),
-          React.createElement('li', null, 'Edited marketing videos and played a key role in developing the MVP across tech, design, and deployment stages.'),
+          React.createElement('li', null, 'Played a key role in developing the MVP across tech, design, and development stages.'),
           React.createElement('li', null, 'I got a chance to enhance my skills and keep a learning approach and explore other dimensions like marketing and talent acquisition where I was involved with a team of 5 members contributing to this startup which sums up my experience.')
         )
       ),
@@ -337,7 +337,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Multi Agentic AI System'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/Venkatalakshmikottapalli/multi-agentic-conversation-ai-system', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Multi Agentic AI System')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: hProjectImage, 
@@ -373,7 +380,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Dynamic Ad Recommender Chatbot'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Dynamic_Ad_Recommender_Chatbot', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Dynamic Ad Recommender Chatbot')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project1Image, 
@@ -407,7 +421,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Low-Rank Fine-Tuning of TinyLLaMA and Phi-2 for Persona-Driven Causal Language Modeling'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/LoRA_TonyStark', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Low-Rank Fine-Tuning of TinyLLaMA and Phi-2 for Persona-Driven Causal Language Modeling')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project2Image, 
@@ -441,7 +462,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Diffusion-Driven Image Generation on 160-Class Multi-Modal Medical Images'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Med_Diffusion', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Diffusion-Driven Image Generation on 160-Class Multi-Modal Medical Images')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project3Image, 
@@ -475,7 +503,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'House Price Prediction'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/House_Price_Prediction', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'House Price Prediction')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project4Image, 
@@ -511,7 +546,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Canine Cardiomegaly Classification & Key Point Localization for Vertebral Heart Score Prediction in Dogs'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Canine_Cardiomegaly_Classification_And_VHS_Regression', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Canine Cardiomegaly Classification & Key Point Localization for Vertebral Heart Score Prediction in Dogs')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project5Image, 
@@ -544,7 +586,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Noise Isolation in Bird Sound Images Using Atrous Convolutions with Multi-Scale Contextual Learning'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Noise_Isolation_Bird_Sound_Images', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Noise Isolation in Bird Sound Images Using Atrous Convolutions with Multi-Scale Contextual Learning')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project6Image, 
@@ -577,7 +626,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Explainable AI for Retinal Disease Detection'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Retinal_Disease_Classification', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Explainable AI for Retinal Disease Detection')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project7Image, 
@@ -610,7 +666,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Custom Implementation of K-Means Clustering Algorithm'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Custom_KMeans_Clustering', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Custom Implementation of K-Means Clustering Algorithm')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project8Image, 
@@ -645,7 +708,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Targeted Marketing'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Targeted_Marketing/tree/main', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Targeted Marketing')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project9Image, 
@@ -678,7 +748,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Understanding Mental Health Through Socioeconomic-Demographic, Lifestyle and Health Factors: An NHANES Perspective'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Mental-Health-NHANES-Study', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Understanding Mental Health Through Socioeconomic-Demographic, Lifestyle and Health Factors: An NHANES Perspective')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project10Image, 
@@ -710,7 +787,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Crop Type Prediction using Supervised, Unsupervised Learning, and Neural Networks'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Crop_Type_Prediction', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Crop Type Prediction using Supervised, Unsupervised Learning, and Neural Networks')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project11Image, 
@@ -743,7 +827,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Time Series Air Quality Prediction with Neural Networks'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Times_Series_Air_Quality_Prediction', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Time Series Air Quality Prediction with Neural Networks')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project12Image, 
@@ -775,7 +866,14 @@ export const projects: Project[] = [
     isExpandable: true, 
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } }, 'Wireless Sound Control'),
+      React.createElement('h3', { style: { margin: '0 0 15px 0', textAlign: 'center' } },
+        React.createElement('a', { 
+          href: 'https://github.com/VaibhavChemboli116/Wireless_Sound_Control', 
+          target: '_blank', 
+          rel: 'noopener noreferrer', 
+          style: { color: 'inherit', textDecoration: 'underline' } 
+        }, 'Wireless Sound Control')
+      ),
       React.createElement('div', { style: { textAlign: 'center', marginBottom: '20px' } },
         React.createElement('img', { 
           src: project13Image, 
