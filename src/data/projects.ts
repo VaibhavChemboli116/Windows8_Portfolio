@@ -122,7 +122,7 @@ export const projects: Project[] = [
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Remote'),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'May 2022 - Aug 2022'),
+        React.createElement('span', null, 'Aug 2022 - Sep 2022'),
         React.createElement('span', null, ','),
         React.createElement('span', { style: { fontWeight: 600 } }, 'Internship')
       ),
@@ -217,7 +217,7 @@ export const projects: Project[] = [
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Remote'),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'Jun 2024 - Dec 2024'),
+        React.createElement('span', null, 'Jul 2024 - Dec 2024'),
         React.createElement('span', null, ','),
         React.createElement('span', { style: { fontWeight: 600 } }, 'Internship')
       ),
@@ -281,7 +281,7 @@ export const projects: Project[] = [
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Lexington Av, Manhattan, NYC, NY'),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'Jan 2025 - May 2025'),
+        React.createElement('span', null, 'Feb 2025 - May 2025'),
         React.createElement('span', null, ','),
         React.createElement('span', { style: { fontWeight: 600 } }, 'Part-Time')
       ),
