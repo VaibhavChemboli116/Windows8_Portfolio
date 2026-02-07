@@ -70,7 +70,7 @@ export const projects: Project[] = [
       React.createElement('h3', null, "Master's in Artificial Intelligence"),
       React.createElement('p', null, 'Yeshiva University, Manhattan, NYC, NY'),
       React.createElement('p', null, '2024-2026'),
-      React.createElement('p', null, 'GPA: 3.7/4.0')
+      React.createElement('p', null, 'GPA: 3.75/4.0')
     )
   },
 
@@ -122,7 +122,7 @@ export const projects: Project[] = [
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Remote'),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'Aug 2022 - Sep 2022'),
+        React.createElement('span', null, 'Jun 2022 - Sep 2022'),
         React.createElement('span', null, ','),
         React.createElement('span', { style: { fontWeight: 600 } }, 'Internship')
       ),
@@ -152,8 +152,73 @@ export const projects: Project[] = [
     )
   },
   { 
-    id: 6, 
+    id: 32, 
     title: 'Experience 2', 
+    color: '#703cb0', 
+    icon: React.createElement(FaBuilding),
+    isExpandable: true,
+    isModalExpandable: true,
+    expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
+      React.createElement('h3', { style: { margin: '0 0 10px 0', textAlign: 'center' } }, 'Student Researcher'),
+      React.createElement('div', {
+        style: {
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: '6px',
+          marginBottom: '10px',
+          flexWrap: 'wrap'
+        }
+      },
+        React.createElement('span', null, 'GITAM University'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'Visakhapatnam, Andhra Pradesh, India'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'On-site'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'Jun 2022 - Jun 2023'),
+        React.createElement('span', null, ','),
+        React.createElement('span', { style: { fontWeight: 600 } }, 'Part-time')
+      ),
+      React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
+        React.createElement('strong', null, 'Responsibilities & Achievements:'),
+        React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '100%' } },
+          React.createElement('li', null,
+            'Session-Based News Recommendation System - ICMLBDA2023 - Springer Conference. ',
+            React.createElement('a', { href: 'https://link.springer.com/chapter/10.1007/978-3-031-51338-1_28', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'View Publication')
+          ),
+          React.createElement('li', null,
+            'Conditional DCGAN for Targeted Generation of MNIST Handwritten Digits - Best Student Paper - ICDSAI 2023 - Springer Conference. ',
+            React.createElement('a', { href: 'https://link.springer.com/chapter/10.1007/978-3-031-51167-7_23', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'View Publication')
+          ),
+          React.createElement('li', null,
+            'Comparative Performance Analysis of Deep Learning Models for Lung Disease Prediction using Chest X-Ray Images - ICICT2023 - IEEE Conference. ',
+            React.createElement('a', { href: 'https://ieeexplore.ieee.org/document/10134132', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'View Publication')
+          )
+        )
+      ),
+      React.createElement('div', { style: { margin: '10px 0 0 0', textAlign: 'left' } },
+        React.createElement('strong', null, 'Tools & Technologies Used:'),
+        React.createElement('ul', { className: 'tools-list-desktop', style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px', columnCount: 2, columnGap: '30px' } },
+          React.createElement('li', null, 'TensorFlow'),
+          React.createElement('li', null, 'Python'),
+          React.createElement('li', null, 'NumPy'),
+          React.createElement('li', null, 'pandas'),
+          React.createElement('li', null, 'matplotlib'),
+          React.createElement('li', null, 'Seaborn'),
+          React.createElement('li', null, 'Flask'),
+          React.createElement('li', null, 'HTML'),
+          React.createElement('li', null, 'CSS'),
+          React.createElement('li', null, 'JS')
+        ),
+        React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'left', maxWidth: '500px' } }, 'TensorFlow, Python, NumPy, pandas, matplotlib, Seaborn, Flask, HTML, CSS, JS')
+      )
+    )
+  },
+  { 
+    id: 6, 
+    title: 'Experience 3', 
     color: '#703cb0', 
     icon: React.createElement(FaBuilding),
     isExpandable: true,
@@ -177,9 +242,9 @@ export const projects: Project[] = [
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Remote'),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'May 2023 - July 2023'),
+        React.createElement('span', null, 'May 2023 - Jul 2023'),
         React.createElement('span', null, ','),
-        React.createElement('span', { style: { fontWeight: 600 } }, 'Volunteer')
+        React.createElement('span', { style: { fontWeight: 600 } }, 'Part-time')
       ),
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
@@ -193,7 +258,7 @@ export const projects: Project[] = [
   },
   { 
     id: 7, 
-    title: 'Experience 3', 
+    title: 'Experience 4', 
     color: '#703cb0', 
     icon: React.createElement(FaBuilding),
     isExpandable: true,
@@ -257,7 +322,7 @@ export const projects: Project[] = [
   },
   { 
     id: 30, 
-    title: 'Experience 4', 
+    title: 'Experience 5', 
     color: '#703cb0', 
     icon: React.createElement(FaBuilding),
     isExpandable: true,
@@ -305,6 +370,58 @@ export const projects: Project[] = [
         React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'left', maxWidth: '500px' } }, 'Neural Networks, Deep Learning, Python, PyTorch')
       )
       )
+  },
+  { 
+    id: 33, 
+    title: 'Experience 6', 
+    color: '#703cb0', 
+    icon: React.createElement(FaBuilding),
+    isExpandable: true,
+    isModalExpandable: true,
+    expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
+      React.createElement('h3', { style: { margin: '0 0 10px 0', textAlign: 'center' } }, 'Generative AI Engineer'),
+      React.createElement('div', {
+        style: {
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: '6px',
+          marginBottom: '10px',
+          flexWrap: 'wrap'
+        }
+      },
+        React.createElement('span', null, 'Stealth Startup'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'Remote'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'May 2025 - Oct 2025'),
+        React.createElement('span', null, ','),
+        React.createElement('span', { style: { fontWeight: 600 } }, 'Internship')
+      ),
+      React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
+        React.createElement('strong', null, 'Responsibilities & Achievements:'),
+        React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '100%' } },
+          React.createElement('li', null, 'Architected a high-throughput ad delivery pipeline using FastAPI, Redis, and WebSockets/SSE for asynchronous operations, integrating LangGraph agents and Qdrant for persistent context management across distributed sessions.'),
+          React.createElement('li', null, 'Engineered an extensible agentic architecture using gRPC-based Google Ads APIs and custom MCP tools, implementing OAuth-secured LangGraph state machines to automate complex ad campaign orchestration pipelines.'),
+          React.createElement('li', null, 'Developed a robust API suite with over 20 endpoints for generative ad copy and creative optimization, reducing manual configuration time by 70% via pre-launch auditing and automated ROI enhancement.')
+        )
+      ),
+      React.createElement('div', { style: { margin: '10px 0 0 0', textAlign: 'left' } },
+        React.createElement('strong', null, 'Tools & Technologies Used:'),
+        React.createElement('ul', { className: 'tools-list-desktop', style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px', columnCount: 2, columnGap: '30px' } },
+          React.createElement('li', null, 'LangGraph'),
+          React.createElement('li', null, 'Model Context Protocol (MCP)'),
+          React.createElement('li', null, 'FastAPI'),
+          React.createElement('li', null, 'Qdrant'),
+          React.createElement('li', null, 'CI/CD'),
+          React.createElement('li', null, 'WebSockets'),
+          React.createElement('li', null, 'SSE'),
+          React.createElement('li', null, 'Agentic AI')
+        ),
+        React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'left', maxWidth: '500px' } }, 'LangGraph, Model Context Protocol (MCP), FastAPI, Qdrant, CI/CD, WebSockets, SSE, Agentic AI')
+      )
+    )
   },
 
   // Projects Category and Items
@@ -913,7 +1030,7 @@ export const projects: Project[] = [
         React.createElement('li', { style: { marginBottom: '20px', padding: '15px', border: '1px solid #333', borderRadius: '8px' } },
           React.createElement('h4', { style: { margin: '0 0 8px 0', color: '#d13438' } }, 'Session-Based News Recommendation System'),
           React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, 'V. Vemani, Vaibhav Chemboli, Pusarla Sindhu'),
-          React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, '2023, Springer Indexed'),
+          React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, '2023, Springer Conference'),
           React.createElement('p', { style: { margin: '0 0 8px 0', fontSize: '14px', fontStyle: 'italic' } }, 'Advances in Machine Learning and Big Data Analytics I (ICMLBDA 2023)'),
           React.createElement('p', { style: { margin: '0 0 8px 0', textAlign: 'justify', fontSize: '14px' } }, 'Developed a session-aware news recommendation system utilizing XLNet with causal language modeling and attention-based sequence processing. The system was trained and evaluated on the G1 news dataset, achieving a Recall at 20 of 0.34 and an NDCG at 20 of 0.16. The approach specifically modeled temporal dynamics and short-term user behavior to deliver highly relevant recommendations in real time.'),
           React.createElement('a', { href: 'https://link.springer.com/chapter/10.1007/978-3-031-51338-1_28', target: '_blank', rel: 'noopener noreferrer', style: { color: '#d13438', textDecoration: 'underline', fontSize: '14px' } }, 'View Publication')
@@ -921,7 +1038,7 @@ export const projects: Project[] = [
         React.createElement('li', { style: { marginBottom: '20px', padding: '15px', border: '1px solid #333', borderRadius: '8px' } },
           React.createElement('h4', { style: { margin: '0 0 8px 0', color: '#d13438' } }, 'Conditional DCGAN for Targeted Generation of MNIST Handwritten Digits'),
           React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, 'Samuel Vasamsetti, Vaibhav Chemboli, G. S. S. Shreyas, Srikanth Thota'),
-          React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, '2023, Springer Indexed'),
+          React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, '2023, Springer Conference'),
           React.createElement('p', { style: { margin: '0 0 8px 0', fontSize: '14px', fontStyle: 'italic' } }, 'Accelerating Discoveries in Data Science and Artificial Intelligence I (ICDSAI 2023)'),
           React.createElement('p', { style: { margin: '0 0 8px 0', textAlign: 'justify', fontSize: '14px' } }, 'Constructed a cDCGAN model to generate high-quality handwritten digit images conditioned on specific labels using the MNIST dataset. Conducted extensive hyperparameter tuning (e.g., epochs, batch size, optimizers, activation functions) and achieved a discriminator accuracy of 94%, outperforming several other GAN models.'),
           React.createElement('a', { href: 'https://link.springer.com/chapter/10.1007/978-3-031-51167-7_23', target: '_blank', rel: 'noopener noreferrer', style: { color: '#d13438', textDecoration: 'underline', fontSize: '14px' } }, 'View Publication')
@@ -929,7 +1046,7 @@ export const projects: Project[] = [
         React.createElement('li', { style: { marginBottom: '20px', padding: '15px', border: '1px solid #333', borderRadius: '8px' } },
           React.createElement('h4', { style: { margin: '0 0 8px 0', color: '#d13438' } }, 'Comparative Performance Analysis of Deep Learning Models for Lung Disease Prediction Using Chest X-Ray Images'),
           React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, 'Samuel Vasamsetti, Vaibhav Chemboli, G.S.S. Shreyas, Srikanth Thota'),
-          React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, '2023, IEEE Indexed'),
+          React.createElement('p', { style: { margin: '0 0 5px 0', fontSize: '14px' } }, '2023, IEEE Conference'),
           React.createElement('p', { style: { margin: '0 0 8px 0', fontSize: '14px', fontStyle: 'italic' } }, '2023 International Conference on Inventive Computation Technologies (ICICT)'),
           React.createElement('p', { style: { margin: '0 0 8px 0', textAlign: 'justify', fontSize: '14px' } }, 'Created a custom CNN-BiLSTM model to classify chest X-ray images into four categories: COVID-19, Pneumonia, Tuberculosis, and Normal. Outperformed several pre-trained models including EfficientNetB7 and VGG16, achieving 97% accuracy with high precision and recall across all classes. Integrated Grad-CAM for model explainability and clinical validation.'),
           React.createElement('a', { href: 'https://ieeexplore.ieee.org/document/10134132', target: '_blank', rel: 'noopener noreferrer', style: { color: '#d13438', textDecoration: 'underline', fontSize: '14px' } }, 'View Publication')
