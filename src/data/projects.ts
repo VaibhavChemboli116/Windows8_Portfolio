@@ -117,8 +117,10 @@ export const projects: Project[] = [
         }
       },
         React.createElement('span', null,
-          React.createElement('a', { href: 'https://www.1stop.ai/', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, '1stop-ai')
+          React.createElement('a', { href: 'https://www.1stop.ai/', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, '1Stop.ai')
         ),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'Visakhapatnam, Andhra Pradesh, India'),
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Remote'),
         React.createElement('span', null, ','),
@@ -129,25 +131,9 @@ export const projects: Project[] = [
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
         React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px' } },
-          React.createElement('li', null, "Developed Hate Speech Detection model using Kaggle's 'Dynamically Generated Hate Speech Dataset' which has 40k data points, utilizing 80% of the data for training."),
-          React.createElement('li', null, 'Employed algorithms such as small BERT, LSTM, Decision Trees, Naive Bayes, and Logistic Regression, where small BERT model demonstrated superior testing accuracy compared to other models.'),
-          React.createElement('li', null, 'Additionally, enhanced a restaurant review classification dataset by preprocessing with NLP techniques and NLTK, reaching 97% classification accuracy via the small BERT model.')
+          React.createElement('li', null, 'Developed NLP models for hate speech detection using BERT, LSTM, and classical machine learning algorithms.'),
+          React.createElement('li', null, 'Built end-to-end ML pipelines for dataset preprocessing, training, and evaluation using Python and scikit-learn.')
         )
-      ),
-      React.createElement('div', { style: { margin: '10px 0 0 0', textAlign: 'left' } },
-        React.createElement('strong', null, 'Tools & Technologies Used:'),
-        React.createElement('ul', { className: 'tools-list-desktop', style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px', columnCount: 2, columnGap: '30px' } },
-          React.createElement('li', null, 'BERT'),
-          React.createElement('li', null, 'LSTM'),
-          React.createElement('li', null, 'Decision Trees'),
-          React.createElement('li', null, 'Naive Bayes'),
-          React.createElement('li', null, 'Logistic Regression'),
-          React.createElement('li', null, 'NLP'),
-          React.createElement('li', null, 'NLTK'),
-          React.createElement('li', null, 'Python'),
-          React.createElement('li', null, 'Machine Learning')
-        ),
-        React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'left', maxWidth: '500px' } }, 'BERT, LSTM, Decision Trees, Naive Bayes, Logistic Regression, NLP, NLTK, Python, Machine Learning')
       )
     )
   },
@@ -171,7 +157,7 @@ export const projects: Project[] = [
           flexWrap: 'wrap'
         }
       },
-        React.createElement('span', null, 'GITAM University'),
+        React.createElement('span', null, 'GITAM Deemed University'),
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Visakhapatnam, Andhra Pradesh, India'),
         React.createElement('span', null, ','),
@@ -184,35 +170,9 @@ export const projects: Project[] = [
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
         React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '100%' } },
-          React.createElement('li', null,
-            'Session-Based News Recommendation System - ICMLBDA2023 - Springer Conference. ',
-            React.createElement('a', { href: 'https://link.springer.com/chapter/10.1007/978-3-031-51338-1_28', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'View Publication')
-          ),
-          React.createElement('li', null,
-            'Conditional DCGAN for Targeted Generation of MNIST Handwritten Digits - Best Student Paper - ICDSAI 2023 - Springer Conference. ',
-            React.createElement('a', { href: 'https://link.springer.com/chapter/10.1007/978-3-031-51167-7_23', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'View Publication')
-          ),
-          React.createElement('li', null,
-            'Comparative Performance Analysis of Deep Learning Models for Lung Disease Prediction using Chest X-Ray Images - ICICT2023 - IEEE Conference. ',
-            React.createElement('a', { href: 'https://ieeexplore.ieee.org/document/10134132', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'View Publication')
-          )
+          React.createElement('li', null, 'Conducted applied research in deep learning for medical imaging, generative modeling, and recommendation systems.'),
+          React.createElement('li', null, 'Co-authored multiple peer-reviewed publications in IEEE and Springer conferences, including a Best Student Paper award.')
         )
-      ),
-      React.createElement('div', { style: { margin: '10px 0 0 0', textAlign: 'left' } },
-        React.createElement('strong', null, 'Tools & Technologies Used:'),
-        React.createElement('ul', { className: 'tools-list-desktop', style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px', columnCount: 2, columnGap: '30px' } },
-          React.createElement('li', null, 'TensorFlow'),
-          React.createElement('li', null, 'Python'),
-          React.createElement('li', null, 'NumPy'),
-          React.createElement('li', null, 'pandas'),
-          React.createElement('li', null, 'matplotlib'),
-          React.createElement('li', null, 'Seaborn'),
-          React.createElement('li', null, 'Flask'),
-          React.createElement('li', null, 'HTML'),
-          React.createElement('li', null, 'CSS'),
-          React.createElement('li', null, 'JS')
-        ),
-        React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'left', maxWidth: '500px' } }, 'TensorFlow, Python, NumPy, pandas, matplotlib, Seaborn, Flask, HTML, CSS, JS')
       )
     )
   },
@@ -249,9 +209,8 @@ export const projects: Project[] = [
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
         React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px' } },
-          React.createElement('li', null, 'Reviewed and provided constructive feedback on research papers for 3rd International Conference on Machine Learning and Big Data Analytics (ICMLBDA2023) conference hosted by National Institute of Technology(NIT), Arunachal Pradesh, India.'),
-          React.createElement('li', null, 'Contributed to maintaining high academic standards by assessing submissions for publication.'),
-          React.createElement('li', null, 'Enhanced understanding of the peer review process and emerging research in AI.')
+          React.createElement('li', null, 'Reviewed machine learning research submissions for an international AI conference, evaluating experimental design, methodology, and technical contributions.'),
+          React.createElement('li', null, 'Provided structured feedback to support publication decisions and maintain academic research quality.')
         )
       )
     )
@@ -264,7 +223,7 @@ export const projects: Project[] = [
     isExpandable: true,
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 10px 0', textAlign: 'center' } }, 'AI/ML Intern'),
+      React.createElement('h3', { style: { margin: '0 0 10px 0', textAlign: 'center' } }, 'Artificial Intelligence Intern'),
       React.createElement('div', {
         style: {
           display: 'flex',
@@ -280,55 +239,32 @@ export const projects: Project[] = [
           React.createElement('a', { href: 'https://www.kreativeintegrations.com/', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'KReative Integrations LLC')
         ),
         React.createElement('span', null, ','),
+        React.createElement('span', null, 'Jersey City, New Jersey, United States'),
+        React.createElement('span', null, ','),
         React.createElement('span', null, 'Remote'),
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Jul 2024 - Dec 2024'),
         React.createElement('span', null, ','),
         React.createElement('span', { style: { fontWeight: 600 } }, 'Internship')
       ),
-      React.createElement('p', { style: { margin: '0 0 10px 0', textAlign: 'justify' } }, 'Built two RAG-based medical chatbots: one using OpenAI Assistant API and another with LLaMA2-7B, Pinecone, and Gale Encyclopedia for domain-specific reasoning.'),
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'justify' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
         React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'justify', maxWidth: '100%' } },
-          React.createElement('li', null, 'Created an medical chatbot utilizing the RAG framework and the LLaMA2 model for natural language processing. The LLaMA Index was used for efficient query retrieval, while Pinecone was used for vector storage and retrieval. I used the Gale series of medical books as the knowledge base and deployed the chatbot using Gradio.'),
-          React.createElement('li', null, 'Improved the chatbot by using the OpenAI Assistant API and created a custom function that allows the user to ask data-driven queries. Built and implemented a comprehensive end-to-end solution with Flask as the frontend, resulting in a fully working, robust medical chatbot.'),
-          React.createElement('li', null, 'Designed database and metadata management with SQLite; optimized retrieval pipelines for both models.'),
-          React.createElement('li', null, 'Contributed to system architecture design, UI/UX planning for web/mobile apps, and conducted technical interviews for full-stack and AI roles.'),
-          React.createElement('li', null, 'Played a key role in developing the MVP across tech, design, and development stages.'),
-          React.createElement('li', null, 'I got a chance to enhance my skills and keep a learning approach and explore other dimensions like marketing and talent acquisition where I was involved with a team of 5 members contributing to this startup which sums up my experience.')
+          React.createElement('li', null, 'Developed an AI-powered clinical assistant using Retrieval-Augmented Generation for contextual medical knowledge retrieval and decision support.'),
+          React.createElement('li', null, 'Engineered backend services integrating LLM APIs and vector databases to enable scalable semantic search and designed API contracts, database schemas.')
         )
-      ),
-      React.createElement('div', { style: { margin: '10px 0 0 0', textAlign: 'justify' } },
-        React.createElement('strong', null, 'Tools & Technologies Used:'),
-        React.createElement('ul', { className: 'tools-list-desktop', style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'justify', maxWidth: '100%', columnCount: 2, columnGap: '30px' } },
-          React.createElement('li', null, 'RAG'),
-          React.createElement('li', null, 'LangChain'),
-          React.createElement('li', null, 'LlamaIndex'),
-          React.createElement('li', null, 'Azure AI Studio'),
-          React.createElement('li', null, 'AI Agents'),
-          React.createElement('li', null, 'Assistant API OpenAI'),
-          React.createElement('li', null, 'Chat Completion API'),
-          React.createElement('li', null, 'Flask'),
-          React.createElement('li', null, 'Gradio'),
-          React.createElement('li', null, 'Pinecone'),
-          React.createElement('li', null, 'ChromaDB'),
-          React.createElement('li', null, 'HTML'),
-          React.createElement('li', null, 'CSS'),
-          React.createElement('li', null, 'JS')
-        ),
-        React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'justify', maxWidth: '100%' } }, 'RAG, LangChain, LlamaIndex, Azure AI Studio, AI Agents, Assistant API OpenAI, Chat Completion API, Flask, Gradio, Pinecone, ChromaDB, HTML, CSS, JS')
       )
     )
   },
   { 
-    id: 30, 
+    id: 34, 
     title: 'Experience 5', 
     color: '#703cb0', 
     icon: React.createElement(FaBuilding),
     isExpandable: true,
     isModalExpandable: true,
     expandedContent: React.createElement('div', { style: { padding: '20px', border: '1px solid #333', borderRadius: '8px', maxWidth: '100%' } },
-      React.createElement('h3', { style: { margin: '0 0 10px 0', textAlign: 'center' } }, 'Graduate Teaching Assistant'),
+      React.createElement('h3', { style: { margin: '0 0 10px 0', textAlign: 'center' } }, 'Graduate Research Assistant'),
       React.createElement('div', {
         style: {
           display: 'flex',
@@ -344,32 +280,24 @@ export const projects: Project[] = [
           React.createElement('a', { href: 'https://www.yu.edu/katz', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'Yeshiva University')
         ),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'Lexington Av, Manhattan, NYC, NY'),
+        React.createElement('span', null, 'Manhattan, New York, United States'),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'Feb 2025 - May 2025'),
+        React.createElement('span', null, 'On-site'),
         React.createElement('span', null, ','),
-        React.createElement('span', { style: { fontWeight: 600 } }, 'Part-Time')
+        React.createElement('span', null, 'Feb 2025 - Dec 2025'),
+        React.createElement('span', null, ','),
+        React.createElement('span', { style: { fontWeight: 600 } }, 'Part-time')
       ),
-      React.createElement('p', { style: { margin: '0 0 10px 0', textAlign: 'left' } }, 'Teaching assistant for the Neural Networks & Deep Learning course.'),
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
         React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px' } },
-          React.createElement('li', null, 'Conducted instructional sessions and tutorials to supplement core course lectures, ensuring students gained a strong foundational understanding of neural networks and deep learning concepts.'),
-          React.createElement('li', null, 'Evaluated and graded student assignment submissions, providing constructive feedback to support learning and improvement.'),
-          React.createElement('li', null, 'Offered individualized guidance and support by addressing students\' queries and clarifying complex topics, fostering an engaging and effective learning environment.')
+          React.createElement('li', null, 'Conducted research on test-time model adaptation for robust inference under distribution shift, focusing on scalable adaptation techniques for large language models.'),
+          React.createElement('li', null, 'Developed a memory-efficient inference framework using Extended Kalman Filtering to enable parameter-efficient LLM adaptation increasing the scalability factor by 100x.'),
+          React.createElement('li', null, 'Supported instruction for a graduate-level Neural Networks and Deep Learning course through lab sessions, model debugging guidance, and training pipeline support.'),
+          React.createElement('li', null, 'Mentored students on implementing deep learning architectures using PyTorch and building reproducible ML experimentation workflows.')
         )
-      ),
-      React.createElement('div', { style: { margin: '10px 0 0 0', textAlign: 'left' } },
-        React.createElement('strong', null, 'Technologies Used:'),
-        React.createElement('ul', { className: 'tools-list-desktop', style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px', columnCount: 2, columnGap: '30px' } },
-          React.createElement('li', null, 'Neural Networks'),
-          React.createElement('li', null, 'Deep Learning'),
-          React.createElement('li', null, 'Python'),
-          React.createElement('li', null, 'PyTorch')
-        ),
-        React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'left', maxWidth: '500px' } }, 'Neural Networks, Deep Learning, Python, PyTorch')
       )
-      )
+    )
   },
   { 
     id: 33, 
@@ -391,35 +319,22 @@ export const projects: Project[] = [
           flexWrap: 'wrap'
         }
       },
-        React.createElement('span', null, 'Stealth Startup'),
+        React.createElement('span', null, 'Latent Flux AI'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'Jersey City, New Jersey, United States'),
         React.createElement('span', null, ','),
         React.createElement('span', null, 'Remote'),
         React.createElement('span', null, ','),
-        React.createElement('span', null, 'May 2025 - Oct 2025'),
+        React.createElement('span', null, 'May 2025 - Dec 2025'),
         React.createElement('span', null, ','),
         React.createElement('span', { style: { fontWeight: 600 } }, 'Internship')
       ),
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
         React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '100%' } },
-          React.createElement('li', null, 'Architected a high-throughput ad delivery pipeline using FastAPI, Redis, and WebSockets/SSE for asynchronous operations, integrating LangGraph agents and Qdrant for persistent context management across distributed sessions.'),
-          React.createElement('li', null, 'Engineered an extensible agentic architecture using gRPC-based Google Ads APIs and custom MCP tools, implementing OAuth-secured LangGraph state machines to automate complex ad campaign orchestration pipelines.'),
-          React.createElement('li', null, 'Developed a robust API suite with over 20 endpoints for generative ad copy and creative optimization, reducing manual configuration time by 70% via pre-launch auditing and automated ROI enhancement.')
+          React.createElement('li', null, 'Built a production multi-agent generative AI platform for automated advertising campaign orchestration, enabling autonomous configuration, validation, and optimization of marketing workflows.'),
+          React.createElement('li', null, 'Designed distributed backend infrastructure using FastAPI, LangGraph, Redis, and Qdrant supporting high-concurrency agent workflows, persistent memory, and scalable tool execution.')
         )
-      ),
-      React.createElement('div', { style: { margin: '10px 0 0 0', textAlign: 'left' } },
-        React.createElement('strong', null, 'Tools & Technologies Used:'),
-        React.createElement('ul', { className: 'tools-list-desktop', style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px', columnCount: 2, columnGap: '30px' } },
-          React.createElement('li', null, 'LangGraph'),
-          React.createElement('li', null, 'Model Context Protocol (MCP)'),
-          React.createElement('li', null, 'FastAPI'),
-          React.createElement('li', null, 'Qdrant'),
-          React.createElement('li', null, 'CI/CD'),
-          React.createElement('li', null, 'WebSockets'),
-          React.createElement('li', null, 'SSE'),
-          React.createElement('li', null, 'Agentic AI')
-        ),
-        React.createElement('p', { className: 'tools-list-mobile', style: { margin: '8px 0', textAlign: 'left', maxWidth: '500px' } }, 'LangGraph, Model Context Protocol (MCP), FastAPI, Qdrant, CI/CD, WebSockets, SSE, Agentic AI')
       )
     )
   },
