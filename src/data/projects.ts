@@ -272,18 +272,26 @@ export const projects: Project[] = [
           justifyContent: 'center',
           alignItems: 'center',
           marginBottom: '10px',
-          flexWrap: 'wrap'
+          flexWrap: 'wrap',
+          textAlign: 'justify',
+          maxWidth: '100%'
         }
       },
         React.createElement('span', null,
-          React.createElement('a', { href: 'https://www.yu.edu/katz', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'Yeshiva University'),
-          ' • Manhattan, New York, United States • On-site • Feb 2025 - Dec 2025 • ',
-          React.createElement('span', { style: { fontWeight: 600 } }, 'Part-time')
-        )
+          React.createElement('a', { href: 'https://www.yu.edu/katz', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'Yeshiva University')
+        ),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'Manhattan, New York, United States'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'On-site'),
+        React.createElement('span', null, ','),
+        React.createElement('span', null, 'Feb 2025 - Dec 2025'),
+        React.createElement('span', null, ','),
+        React.createElement('span', { style: { fontWeight: 600 } }, 'Part-time')
       ),
-      React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'left' } },
+      React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'justify', maxWidth: '100%' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
-        React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'left', maxWidth: '500px' } },
+        React.createElement('ul', { style: { padding: '0 0 0 18px', margin: '8px 0', textAlign: 'justify', maxWidth: '100%' } },
           React.createElement('li', null, 'Conducted research on test-time model adaptation for robust inference under distribution shift, focusing on scalable adaptation techniques for large language models.'),
           React.createElement('li', null, 'Developed a memory-efficient inference framework using Extended Kalman Filtering to enable parameter-efficient LLM adaptation increasing the scalability factor by 100x.'),
           React.createElement('li', null, 'Supported instruction for a graduate-level Neural Networks and Deep Learning course through lab sessions, model debugging guidance, and training pipeline support.'),
