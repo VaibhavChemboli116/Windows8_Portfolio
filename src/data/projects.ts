@@ -280,14 +280,14 @@ export const projects: Project[] = [
         React.createElement('span', null,
           React.createElement('a', { href: 'https://www.yu.edu/katz', target: '_blank', rel: 'noopener noreferrer', style: { color: '#703cb0', textDecoration: 'underline' } }, 'Yeshiva University')
         ),
-        React.createElement('span', null, ','),
-        React.createElement('span', null, 'Manhattan, New York, United States '),
+        React.createElement('span', null, ', '),
+        React.createElement('span', null, 'Manhattan, New York, United States'),
         React.createElement('span', null, ', '),
         React.createElement('span', null, 'On-site'),
         React.createElement('span', null, ', '),
         React.createElement('span', null, 'Feb 2025 - Dec 2025'),
         React.createElement('span', null, ', '),
-        React.createElement('span', { style: { fontWeight: 600 } }, ' Part-time')
+        React.createElement('span', { style: { fontWeight: 600 } }, 'Part-time')
       ),
       React.createElement('div', { style: { margin: '0 0 10px 0', textAlign: 'justify', maxWidth: '100%' } },
         React.createElement('strong', null, 'Responsibilities & Achievements:'),
